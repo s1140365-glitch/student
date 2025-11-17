@@ -1,14 +1,15 @@
-#include <iostream>
+#include <stdio.h>
 
 int main()
 {
-    
-    std::cout<<"快樂星球" << std::endl;
-    std::cout<<"快 樂 星 球" << std::endl;
-    std::cout<<"快\t樂\t星\t球" << std::endl;
-    std::cout<<"快\n樂\n星\n球" << std::endl;
-    std::cout<<"快\"樂\"星\"球" << std::endl;
-    std::cout<<"\\快樂星球\\" << std::endl;
-    
- return 0;
+    int a =5 + 3;
+    int b =5 - 3;
+    int c =5 * 3;
+    int d =5 / 3;
+    double e =5 / 3.0;
+    int f =5 % 3;
+
+    std::cout << a << " "<< b << " "<< c << " "<< d << " "<< e << " "<< f << " "
+ 
+    return 0;
 }
