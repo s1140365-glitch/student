@@ -1,12 +1,17 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    for (int i=1;i<=9;i++) { 
-        for (int j=1;j<=;j++) {
-            std::cout<<"*"<<j<<"*"<<i*j<<"\t";
-        }
-
+    int password = 7;
+    int enterKey;
+    
+    cout << "輸入密碼數字(1-10): ";
+    cin >> enterKey;
+    while (password != enterKey) {
+        cout << "密碼錯誤再次輸入(1-10): ";
+        cin >> enterKey;
     }
+    cout << "密碼正確遊戲結束" << endl;
     return 0;
 }
